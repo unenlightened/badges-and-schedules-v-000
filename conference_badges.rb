@@ -1,10 +1,10 @@
 # Write your code here.
-def badge_maker(name)
+def badge_maker(attendee)
   "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(names)
-  names.each do |name|
-    badge_maker(name)
+def batch_badge_creator(attendees)
+  attendees.each do |attendee|
+    badge_maker(attendee)
   end
 end
