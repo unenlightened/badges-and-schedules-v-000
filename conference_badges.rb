@@ -9,7 +9,7 @@ def batch_badge_creator(attendees)
   end
 end
 
-def assign_rooms(speakers)
+def assign_rooms(attendees)
   room = 0
   speakers.collect do |speaker|
     room +=1
